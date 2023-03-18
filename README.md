@@ -15,12 +15,14 @@ keygen:
 "-s": specify the seed used to initialize the random state (default: seconds since Unix epoch).  
 "-v": enables verbose output.  
 "-h": displays program synopsis and usage.  
+
 encrypt:  
 "-i": specify input file to encrypt (default: stdin).  
 "-o": specify output of the encrypted input (default: stdout).  
 "-n": specify file containing public key (default: "rsa.pub").  
 "-v": enables verbose output.  
 "-h": displays program synopsis and usage.  
+
 decrypt:  
 "-i": specify input file to decrypt (default: stdin).  
 "-o": specify output of the decrypted input (default: stdout).  
