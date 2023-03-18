@@ -2,10 +2,11 @@
 As part of a school project, I wrote a barebones RSA cryptography program in C capable of generating key pairs of varying size, and file encryption/decryption.
 The following is a usage guide.
 
+
+USAGE AND SYNOPSIS:  
 This program generates RSA key pairs, encrypts, and decrypts files. Generating keys, encrypting files,
 and decrypting files each have their own executable and take in arguments. The following will specify
-how to use these executables. Run "make" to compile and link the files in the directory before running
-the program.  
+how to use these executables. Run "make" to generate the following executables.
 
 keygen:  
 "-b": specify number of bits for the public modulus n (default: 1024).  
